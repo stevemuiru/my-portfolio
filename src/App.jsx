@@ -1,10 +1,10 @@
-function App() {
-  return(
+import Hero from './components/Hero.jsx'
+import About from './components/About.jsx'
 
-  <label forName="username">Username:</label>
-)
- 
-
+function App(){
+  return (
+    <Hero />,
+    <About />
+  )
 }
-
 export default App;
