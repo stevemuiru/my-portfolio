@@ -1,6 +1,6 @@
 function Hero() {
     return (
-        <div className="hero">
+        <div className="hero" id="home">
             <h1>Stephen Muiru</h1>
             <h2 className="role">Aspiring Full Stack Engineer</h2>
             <p className="tagline">I'm a self-taught developer who enjoys turning ideas into working products — from styling the interface to designing the database behind it.</p>
