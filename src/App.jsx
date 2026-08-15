@@ -9,7 +9,8 @@ function App(){
     <AppNavbar />,
     <Hero />,
     <About />,
-    <Skills />
+    <Skills />,
+    <Projects />
   )
 }
 export default App;
