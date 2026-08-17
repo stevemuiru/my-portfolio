@@ -3,6 +3,7 @@ import About from './components/About.jsx'
 import { Navbar } from 'react-bootstrap';
 import AppNavbar from './components/AppNavbar.jsx';
 import Skills from './Skills.jsx'
+import ProjectCard from './components/ProjectCard.jsx';
 
 function App(){
   return (
@@ -10,7 +11,8 @@ function App(){
     <Hero />,
     <About />,
     <Skills />,
-    <Projects />
+    <Projects />,
+    <ProjectCard />
   )
 }
 export default App;

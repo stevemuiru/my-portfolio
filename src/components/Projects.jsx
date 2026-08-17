@@ -1,3 +1,5 @@
+import ProjectCard from './ProjectCard.jsx'
+
 function Projects() {
     const projects = [
         {
@@ -22,6 +24,16 @@ function Projects() {
             githubUrl: "https://github.com/stevemuiru/inventory-app"
         }
     ]
+
+    return (
+        <ul>
+            {projects.map((project) => (
+    <li key={project.title}>
+        <ProjectCard {...project} />
+    </li>
+))}
+        </ul>
+    )
 }
 
 export default Projects
