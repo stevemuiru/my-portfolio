@@ -4,6 +4,7 @@ import { Navbar } from 'react-bootstrap';
 import AppNavbar from './components/AppNavbar.jsx';
 import Skills from './Skills.jsx'
 import ProjectCard from './components/ProjectCard.jsx';
+import Contacts from './components/Contacts.jsx';
 
 function App(){
   return (
@@ -12,7 +13,8 @@ function App(){
     <About />,
     <Skills />,
     <Projects />,
-    <ProjectCard />
+    <ProjectCard />,
+    <Contacts />
   )
 }
 export default App;
