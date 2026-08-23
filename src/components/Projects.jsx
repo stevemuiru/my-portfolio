@@ -26,13 +26,16 @@ function Projects() {
     ]
 
     return (
-        <ul>
-            {projects.map((project) => (
-    <li key={project.title}>
-        <ProjectCard {...project} />
-    </li>
-))}
-        </ul>
+        <section id="projects" className="container py-5">
+            <h2 className="text-center mb-5">Projects</h2>
+            <div className="row g-4">
+                {projects.map((project) => (
+                    <div key={project.title} className="col-12 col-md-6 col-lg-4">
+                        <ProjectCard {...project} />
+                    </div>
+                ))}
+            </div>
+        </section>
     )
 }
 

@@ -1,4 +1,5 @@
  import { SiHtml5, SiCss, SiJavascript, SiReact, SiBootstrap, SiNodedotjs, SiPostgresql } from 'react-icons/si';
+
 function Skills() {
     const skills = [
         { name: "HTML", category: "frontend", icon: SiHtml5 },
@@ -11,14 +12,17 @@ function Skills() {
     ];
 
     return (
-        <ul>
-            {skills.map((skill) => (
-                <li key={skill.name}>
-                    <skill.icon />
-                    <p>{skill.name}</p>
-                </li>
-            ))}
-        </ul>
+        <section id="skills" className="container py-5">
+            <h2 className="text-center mb-5">Skills</h2>
+            <div className="row g-4">
+                {skills.map((skill) => (
+                    <div key={skill.name} className="col-6 col-md-3 text-center">
+                        <skill.icon size={48} />
+                        <p className="mt-2">{skill.name}</p>
+                    </div>
+                ))}
+            </div>
+        </section>
     );
 }
 
