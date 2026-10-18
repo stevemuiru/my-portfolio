@@ -3,11 +3,11 @@ import ProjectCard from './ProjectCard.jsx'
 function Projects() {
     const projects = [
         {
-            title: "Shopping Cart",
-            description: "A simple and modern shopping cart application built with React and Vite",
-            tech: ["React", "Vite", "Javascript(ES6)", "Css"],
-            liveDemo: "https://stevemuiru.github.io/shopping-cart/",
-            githubUrl: "https://github.com/stevemuiru/shopping-cart"
+            title: "h45 studios",
+            description: "A simple and modern website for my friends business of selling clothes",
+            tech: ["React", "Vite", "Javascript(ES6)", "tailwind css", "Postegres sql, prisma", "nodejs", "express"],
+            liveDemo: "https://h45-studios.vercel.app/",
+            githubUrl: "https://github.com/stevemuiru/h45-studios"
         },
         {
             title: "Members Only",
